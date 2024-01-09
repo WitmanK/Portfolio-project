@@ -1,14 +1,30 @@
+:root {
+  --default-font: "Lobster", sans-serif;
+  --company-colour: #a48aca;
+}
+
+body {
+  background-color: #ffffff;
+}
 h1 {
   font-family: "Lobster", sans-serif;
   font-size: 80px;
 }
 h2,
 p {
-  font-family: "Varela Round", sans-serif;
+  font-style: var(--default-font);
   font-size: 20px;
+  font: bold;
 }
 .home-top {
   text-align: center;
   padding: 80px 10px;
-  background-color: yellow;
+  background-color: var(--company-colour);
+}
+.img-fluid {
+  max-block-size: 67px;
+}
+.home-buttons {
+  text-align: center;
+  padding: 20px 0px;
 }
