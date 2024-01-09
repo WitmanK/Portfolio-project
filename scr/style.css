@@ -1,3 +1,14 @@
 h1 {
   font-family: "Lobster", sans-serif;
+  font-size: 80px;
+}
+h2,
+p {
+  font-family: "Varela Round", sans-serif;
+  font-size: 20px;
+}
+.home-top {
+  text-align: center;
+  padding: 80px 10px;
+  background-color: yellow;
 }
