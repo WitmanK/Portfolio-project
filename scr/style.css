@@ -1,14 +1,16 @@
 :root {
-  --default-font: "Lobster", sans-serif;
+  --default-font: "Varela Round", sans-serif;
   --company-colour: #a48aca;
+  --heading-font: "Pacifico", cursive;
 }
 
 body {
   background-color: #ffffff;
 }
 h1 {
-  font-family: "Lobster", sans-serif;
+  font-family: var(--heading-font);
   font-size: 80px;
+  padding: 20px;
 }
 h2,
 p {
@@ -27,4 +29,15 @@ p {
 .home-buttons {
   text-align: center;
   padding: 20px 0px;
+}
+.country-top-div {
+  padding: 20px;
+  text-align: center;
+}
+.country-top-paragraphs {
+  font-family: var(--default-font);
+  font-size: 20px;
+}
+img {
+  background-size: cover;
 }
