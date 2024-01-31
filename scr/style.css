@@ -1,6 +1,7 @@
 :root {
   --default-font: "Varela Round", sans-serif;
-  --company-colour: #bdaada;
+  --company-colour: #dd9b2d;
+  --heading-colour: #305029;
   --heading-font: "Pacifico", cursive;
 }
 
@@ -10,6 +11,7 @@ body {
 h1 {
   font-family: var(--heading-font);
   font-size: 80px;
+  color: var(--heading-colour);
   padding: 20px;
 }
 h2,
@@ -17,6 +19,7 @@ p {
   font-style: var(--default-font);
   font-size: 30px;
   font: bold;
+  color: var(--heading-colour);
 }
 .home-top {
   text-align: center;
@@ -26,9 +29,21 @@ p {
 .img-fluid {
   max-block-size: 67px;
 }
-.home-buttons {
+.home-button-div {
   text-align: center;
   padding: 20px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.btns-home {
+  font-size: 23px;
+  border-radius: 10px;
+  background-color: #fb7712;
+  border: none;
+  font-family: var(--heading-font);
+  color: var(--heading-colour);
+
+  padding: 10px 15px;
 }
 .country-top-div {
   padding: 20px;
