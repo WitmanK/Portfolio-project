@@ -51,6 +51,6 @@ p {
 }
 .homeparagraph {
   font-family: car(--default-font);
-  font-size: 25px;
+  font-size: 20px;
   text-align: left;
 }
