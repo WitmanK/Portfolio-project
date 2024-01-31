@@ -3,6 +3,7 @@
   --company-colour: #dd9b2d;
   --heading-colour: #305029;
   --heading-font: "Pacifico", cursive;
+  --country-paragraph-background: #fcd084;
 }
 
 body {
@@ -17,7 +18,7 @@ h1 {
 h2,
 p {
   font-style: var(--default-font);
-  font-size: 30px;
+  font-size: 20px;
   font: bold;
   color: var(--heading-colour);
 }
@@ -49,6 +50,8 @@ p {
 .country-top-div {
   padding: 20px;
   text-align: center;
+  background-color: var(--company-colour);
+  margin-bottom: 10px;
 }
 .country-top-paragraphs {
   font-family: var(--default-font);
@@ -74,4 +77,14 @@ p {
 }
 .gradient-home {
   background-image: linear-gradient(#dd9b2d, white);
+}
+.country-paragraphs {
+  background-color: var(--country-paragraph-background);
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.country-pictures {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
