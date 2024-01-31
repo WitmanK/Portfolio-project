@@ -56,9 +56,10 @@ p {
 .container img {
   object-fit: cover;
 }
-.contact {
+.github {
   display: block;
   text-align: center;
+  font-family: var(--default-font);
 }
 .homepic {
   border-radius: 50px;
@@ -68,4 +69,7 @@ p {
   font-family: car(--default-font);
   font-size: 20px;
   text-align: left;
+}
+.gradient-home {
+  background-image: linear-gradient(#dd9b2d, white);
 }
