@@ -1,6 +1,6 @@
 :root {
   --default-font: "Varela Round", sans-serif;
-  --company-colour: #a48aca;
+  --company-colour: #bdaada;
   --heading-font: "Pacifico", cursive;
 }
 
@@ -44,4 +44,13 @@ p {
 .contact {
   display: block;
   text-align: center;
+}
+.homepic {
+  border-radius: 50px;
+  box-shadow: 10px 10px 2px 1px rgba(200, 159, 500, 0.2);
+}
+.homeparagraph {
+  font-family: car(--default-font);
+  font-size: 25px;
+  text-align: left;
 }
