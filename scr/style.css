@@ -3,11 +3,12 @@
   --company-colour: #dd9b2d;
   --heading-colour: #305029;
   --heading-font: "Pacifico", cursive;
-  --country-paragraph-background: #fcd084;
+  --country-paragraph-background: #faeace;
 }
 
 body {
   background-color: #ffffff;
+  padding: 0%;
 }
 h1 {
   font-family: var(--heading-font);
@@ -82,8 +83,22 @@ p {
   background-color: var(--country-paragraph-background);
   height: 100%;
   padding: 16px;
+  border-radius: 30px;
 }
 .country-pictures {
   width: 100%;
   height: 100%;
+  border-radius: 30px;
+}
+@media (max-width: 667px) {
+  .country-paragraphs {
+    font-size: 10px;
+  }
+  .country-pictures {
+    display: block;
+    max-width: 100%;
+  }
+  .country-top-paragraphs {
+    font-size: 15px;
+  }
 }
