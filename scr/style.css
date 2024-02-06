@@ -36,12 +36,17 @@ nav {
 nav li {
   display: inline;
   list-style: none;
-  font-style: var(--default-font);
-  font-weight: 500;
+  padding-left: 10px;
 }
 nav ul {
   margin: 0;
   padding: 0;
+}
+.navigation-text {
+  color: black;
+  font-style: var(--default-font);
+  font-weight: 500;
+  font-size: 20px;
 }
 .home-top {
   text-align: center;
@@ -111,6 +116,34 @@ nav ul {
   border-radius: 30px;
 }
 @media (max-width: 667px) {
+  .logo {
+    max-width: 120px;
+  }
+  .navigation-text {
+    font-size: 13px;
+  }
+  nav li {
+    padding-left: 5px;
+  }
+  .home-button-div {
+    padding: 5% 5%;
+  }
+  .btns-home {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .home-top {
+    padding: 5% 2%;
+  }
+  h1 {
+    font-size: 50px;
+    padding: 2%;
+  }
+  h2 {
+    font-size: 20px;
+    padding: 0%;
+  }
   .country-paragraphs {
     font-size: 10px;
   }
@@ -120,5 +153,12 @@ nav ul {
   }
   .country-top-paragraphs {
     font-size: 15px;
+  }
+  .homepic {
+    width: 60%;
+  }
+  .homeparagraph {
+    font-size: 15px;
+    padding-top: 40px;
   }
 }
