@@ -25,6 +25,8 @@ p {
 }
 .logo {
   max-width: 150px;
+  display: flex;
+  justify-content: left;
 }
 nav {
   display: flex;
@@ -34,6 +36,8 @@ nav {
 nav li {
   display: inline;
   list-style: none;
+  font-style: var(--default-font);
+  font-weight: 500;
 }
 nav ul {
   margin: 0;
