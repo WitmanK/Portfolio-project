@@ -1,13 +1,12 @@
 :root {
   --default-font: "Varela Round", sans-serif;
   --company-colour: #ffffff;
-  --heading-colour: black;
+  --heading-colour: #4a5255;
   --heading-font: "Pacifico", cursive;
   --country-paragraph-background: #faeace;
 }
 
 body {
-  background-color: #ffffff;
   padding: 0%;
 }
 h1 {
@@ -43,15 +42,16 @@ nav ul {
   padding: 0;
 }
 .navigation-text {
-  color: black;
+  color: #50595c;
   font-style: var(--default-font);
   font-weight: 500;
   font-size: 20px;
 }
 .home-top {
   text-align: center;
-  padding: 60px 0px;
+  padding: 60px 0px 60px 0px;
   background-color: var(--company-colour);
+  background-color: #96c9b1;
 }
 .img-fluid {
   max-block-size: 67px;
@@ -64,14 +64,15 @@ nav ul {
   padding: 15px;
 }
 .btns-home {
-  font-size: 23px;
+  font-size: 20px;
   border-radius: 30px;
-  background-color: #7adbdb;
+  background-color: #7adbdbaf;
   border: none;
-  font-family: var(--heading-font);
-  color: var(--heading-colour);
+  font-family: var(--default-font);
+  color: white;
+  font-weight: 500;
   margin: 0;
-  padding: 10px 15px;
+  padding: 8px 15px 6px 15px;
 }
 .country-top-div {
   padding: 20px;
@@ -97,13 +98,12 @@ nav ul {
 }
 .homeparagraph {
   font-family: car(--default-font);
+  color: var(--heading-colour);
   font-size: 20px;
   text-align: left;
   padding-top: 10px 0px;
 }
-.gradient-home {
-  background-image: linear-gradient(var(--company-colour), rgb(247, 235, 228));
-}
+
 .country-paragraphs {
   background-color: var(--country-paragraph-background);
   height: 100%;
