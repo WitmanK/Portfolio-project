@@ -5,7 +5,6 @@
   --heading-font: "Pacifico", cursive;
   --country-paragraph-background: #faeace;
 }
-
 body {
   padding: 0%;
 }
@@ -80,6 +79,7 @@ nav ul {
   color: var(--heading-colour);
   opacity: 1;
 }
+
 .country-top-div {
   padding: 20px;
   text-align: center;
@@ -121,6 +121,17 @@ nav ul {
   height: 100%;
   border-radius: 30px;
 }
+.footerlinks a {
+  margin-top: 40px;
+  padding: 20px;
+}
+.contact-links {
+  color: #4a5255;
+  font-size: 25px;
+}
+.contact-links:hover {
+  color: #7adbdbaf;
+}
 @media (max-width: 667px) {
   .logo {
     max-width: 120px;
@@ -137,7 +148,6 @@ nav ul {
   .home-button-div {
     padding: 5% 5%;
   }
-
   .btns-home {
     font-size: 15px;
     display: flex;
@@ -172,11 +182,4 @@ nav ul {
     font-size: 15px;
     padding-top: 40px;
   }
-}
-.footerlinks a {
-  padding: 20px;
-}
-.contact-links {
-  color: #4a5255;
-  font-size: 25px;
 }
