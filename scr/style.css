@@ -46,6 +46,11 @@ nav ul {
   font-weight: 500;
   font-size: 20px;
 }
+.navigation-text:hover {
+  text-decoration: none;
+  color: #50595c;
+  font-size: 30px;
+}
 .home-top {
   text-align: center;
   padding: 60px 0px 60px 0px;
@@ -57,9 +62,6 @@ nav ul {
 }
 .home-button-div {
   text-align: center;
-  padding: 20px 0px;
-  display: flex;
-  justify-content: space-evenly;
   padding: 15px;
 }
 .btns-home {
@@ -70,7 +72,7 @@ nav ul {
   font-family: var(--default-font);
   color: white;
   font-weight: 500;
-  margin: 0;
+  margin: 0px 30px;
   padding: 8px 15px 6px 15px;
   opacity: 0.8;
   transition: 0.3s;
@@ -150,9 +152,7 @@ nav ul {
   }
   .btns-home {
     font-size: 15px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 5px;
+    margin: 0px 0px;
   }
   .home-top {
     padding: 5% 2%;
@@ -180,6 +180,52 @@ nav ul {
   }
   .homeparagraph {
     font-size: 15px;
-    padding-top: 40px;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 800px) {
+  .logo {
+    max-width: 140px;
+  }
+  .navigation-text {
+    font-size: 14px;
+  }
+  nav li {
+    padding-left: 10px;
+  }
+  .home-top {
+    padding: 10px 0px;
+  }
+  .home-button-div {
+    padding: 4% 3%;
+  }
+  .btns-home {
+    font-size: 18px;
+    margin: 0px 10px;
+  }
+  h1 {
+    font-size: 65px;
+    padding: 2%;
+  }
+  h2 {
+    font-size: 20px;
+    padding: 0%;
+  }
+  .country-paragraphs {
+    font-size: 14px;
+  }
+  .country-pictures {
+    display: block;
+    max-width: 100%;
+  }
+  .country-top-paragraphs {
+    font-size: 15px;
+  }
+  .homepic {
+    width: 70%;
+  }
+  .homeparagraph {
+    font-size: 17px;
+    margin-top: 40px;
   }
 }
