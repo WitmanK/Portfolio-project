@@ -73,6 +73,12 @@ nav ul {
   font-weight: 500;
   margin: 0;
   padding: 8px 15px 6px 15px;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.btns-home:hover {
+  color: var(--heading-colour);
+  opacity: 1;
 }
 .country-top-div {
   padding: 20px;
@@ -131,6 +137,7 @@ nav ul {
   .home-button-div {
     padding: 5% 5%;
   }
+
   .btns-home {
     font-size: 15px;
     display: flex;
@@ -168,4 +175,8 @@ nav ul {
 }
 .footerlinks a {
   padding: 20px;
+}
+.contact-links {
+  color: #4a5255;
+  font-size: 25px;
 }
