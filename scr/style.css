@@ -134,55 +134,7 @@ nav ul {
 .contact-links:hover {
   color: #7adbdbaf;
 }
-@media (max-width: 667px) {
-  .logo {
-    max-width: 120px;
-  }
-  .navigation-text {
-    font-size: 11px;
-  }
-  nav li {
-    padding-left: 5px;
-  }
-  .home-top {
-    padding: 10px 0px;
-  }
-  .home-button-div {
-    padding: 5% 5%;
-  }
-  .btns-home {
-    font-size: 15px;
-    margin: 0px 0px;
-  }
-  .home-top {
-    padding: 5% 2%;
-  }
-  h1 {
-    font-size: 50px;
-    padding: 2%;
-  }
-  h2 {
-    font-size: 20px;
-    padding: 0%;
-  }
-  .country-paragraphs {
-    font-size: 10px;
-  }
-  .country-pictures {
-    display: block;
-    max-width: 100%;
-  }
-  .country-top-paragraphs {
-    font-size: 15px;
-  }
-  .homepic {
-    width: 60%;
-  }
-  .homeparagraph {
-    font-size: 15px;
-    margin-top: 40px;
-  }
-}
+
 @media (max-width: 800px) {
   .logo {
     max-width: 140px;
@@ -216,7 +168,7 @@ nav ul {
   }
   .country-pictures {
     display: block;
-    max-width: 100%;
+    width: 100%;
   }
   .country-top-paragraphs {
     font-size: 15px;
@@ -226,6 +178,58 @@ nav ul {
   }
   .homeparagraph {
     font-size: 17px;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .logo {
+    max-width: 60px;
+  }
+  .navigation-text {
+    font-size: 10px;
+    padding: 0px 0px;
+  }
+  nav ul li {
+    padding-left: 0px;
+  }
+  nav li {
+    padding-left: 5px;
+  }
+  .home-top {
+    padding: 10px 0px;
+  }
+  .home-button-div {
+  }
+  .btns-home {
+    font-size: 12px;
+    margin: 0px 0px;
+  }
+  .home-top {
+    padding: 5% 2%;
+  }
+  h1 {
+    font-size: 50px;
+    padding: 2%;
+  }
+  h2 {
+    font-size: 20px;
+    padding: 0%;
+  }
+  .country-paragraphs {
+    font-size: 10px;
+  }
+  .country-pictures {
+    display: block;
+    max-width: 100%;
+  }
+  .country-top-paragraphs {
+    font-size: 15px;
+  }
+  .homepic {
+    width: 60%;
+  }
+  .homeparagraph {
+    font-size: 15px;
     margin-top: 40px;
   }
 }
